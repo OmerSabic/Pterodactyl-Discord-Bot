@@ -13,6 +13,8 @@ botclient.remove_command('help')
 url = 'https://example.com'
 api_key = 'apiKey'
 
+discord_token = "token"
+
 server_ip = 'play.server.com'
 
 ###############
@@ -99,4 +101,4 @@ async def ip(ctx):
 
     await ctx.send(embed=embed)
 
-botclient.run('NzI0NzQzMjQzNDU5NDYxMTIw.XvEnvg.6-7D6IkJ7z177CfppmV3GpBdj8A')
+botclient.run(discord_token)
